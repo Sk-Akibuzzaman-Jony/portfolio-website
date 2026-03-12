@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+html {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: clip;
+  }
+
+  body {
+    position: relative;
+  }
+}
+@media (max-width: 640px) {
+  html, body {
+    overflow-x: clip;
+  }
+
+  body {
+    position: relative;
+  }
+}
+
+body{
+  background-color: oklch(20.5% 0 0);
+}
