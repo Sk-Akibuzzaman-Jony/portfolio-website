@@ -8,9 +8,9 @@ export default function About() {
       <p>
         I am a Full Stack Software Engineer with a solid background in Computer Science. I have practical experience in full stack development, machine learning, and AI, as well as experience with cloud technology. 
         </p>
-        <p className="mt-4">
+        {/* <p className="mt-4">
         I find it interesting to develop scalable end-to-end applications, from user-friendly interfaces to efficient back-end solutions. I am specifically interested in using data-driven and intelligent approaches to solve real-world problems and optimize system performance, reliability, and usability.
-        </p>
+        </p> */}
 
         <div>
         <h2 className="text-2xl font-semibold mt-8 mb-4">Skills</h2>
