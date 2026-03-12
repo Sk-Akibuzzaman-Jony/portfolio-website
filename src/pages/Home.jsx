@@ -198,7 +198,7 @@ export default function Home() {
             </div>
           </div>
         </aside>
-        <main className="bg-neutral-800 lg:w-x  rounded-4xl shadow-lg row-span-3 col-span-1  lg:row-span-1 lg:col-span-3">
+        <main className="bg-neutral-800 md:w-[53vw]  rounded-4xl shadow-lg row-span-3 col-span-1  lg:row-span-1 lg:col-span-3">
           {/* RIGHT SIDE CONTENT */}
           <Navbar currentPage={currentPage} setCurrentPage={setCurrentPage} />
           <div className="">
