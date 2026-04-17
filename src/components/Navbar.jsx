@@ -13,6 +13,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
     border-t border-white/10
     shadow-[0_-8px_30px_rgba(0,0,0,0.3)]
     md:rounded-tl-4xl md:rounded-tr-4xl
+    rounded-tl-4xl rounded-tr-4xl
     lg:visible
     "
     >
