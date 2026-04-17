@@ -75,7 +75,7 @@ export default function Home() {
 
   return (
     <>
-      <ChatBot />
+      {/* <ChatBot /> */}
     <div className="bg-neutral-900 w-screen min-h-screen p-6 pt-16 lg:px-72">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:items-start">
         <aside
@@ -98,12 +98,14 @@ export default function Home() {
             <div className="flex items-center gap-4 lg:flex-col">
               <img
                 src={photo5}
-                className="bg-neutral-700 border-t border-l border-neutral-500 h-20 w-20 lg:h-36 lg:w-36 rounded-3xl"
+                className="bg-neutral-700 border-t border-l border-neutral-500 h-20 w-20 lg:h-36 lg:w-36 rounded-3xl shadow-[5px_5px_rgba(250,204,21,0.9),10px_10px_rgba(250,204,21,0.1)]"
               />
               <h1 className="font-bold text-neutral-100 text-lg lg:text-2xl">
                 Sk Jony
               </h1>
             </div>
+
+            
 
             {/* Toggle button (mobile only) */}
             {/* <button
